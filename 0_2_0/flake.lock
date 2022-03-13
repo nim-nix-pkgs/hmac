@@ -32,11 +32,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1647069990,
-        "narHash": "sha256-DMFIKd+j7KwgTbFwpRUT4S7bSnvNb/kBSLgSXxtxo3k=",
+        "lastModified": 1647114079,
+        "narHash": "sha256-6FETu1VmLv6VRJCM9cLTgqVXN1Ao007aHPjlIde5JGo=",
         "owner": "nim-nix-pkgs",
         "repo": "nimcrypto",
-        "rev": "6b8c7628318d526d334af933ae21925fa4d9612a",
+        "rev": "f1370fda24135dd0dd82651648b9e6400c2bbd47",
         "type": "github"
       },
       "original": {
@@ -59,13 +59,20 @@
         "src-nimcrypto-master": "src-nimcrypto-master"
       },
       "locked": {
-        "narHash": "sha256-CDNqHaK7bb4wwk1v685SDZ4jgQH90qM+Zo7EKYX7tbE=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647114079,
+        "narHash": "sha256-6FETu1VmLv6VRJCM9cLTgqVXN1Ao007aHPjlIde5JGo=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "f1370fda24135dd0dd82651648b9e6400c2bbd47",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
       }
     },
     "nimsha2": {
@@ -79,11 +86,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1647069349,
-        "narHash": "sha256-BqmyfESrhEUm5oTq48669Kgq/2neU7IPo4pbHzIxGDA=",
+        "lastModified": 1647113937,
+        "narHash": "sha256-AUrcCLfeH440Nu1RU7p2m9x7Kud4rMnenoeLi6QuiJo=",
         "owner": "nim-nix-pkgs",
         "repo": "nimsha2",
-        "rev": "809a8ea61bff9f72829c0d24f3e9ca30568177ac",
+        "rev": "d754ac89777418363f7e8a4bfd2a8c4c66a80665",
         "type": "github"
       },
       "original": {
@@ -103,16 +110,23 @@
           "nimsha2",
           "nixpkgs"
         ],
-        "src-nimcrypto-master": "src-nimcrypto-master_2"
+        "src-nimSHA2-master": "src-nimSHA2-master"
       },
       "locked": {
-        "narHash": "sha256-CDNqHaK7bb4wwk1v685SDZ4jgQH90qM+Zo7EKYX7tbE=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647113937,
+        "narHash": "sha256-AUrcCLfeH440Nu1RU7p2m9x7Kud4rMnenoeLi6QuiJo=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimsha2",
+        "rev": "d754ac89777418363f7e8a4bfd2a8c4c66a80665",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimsha2",
+        "type": "github"
       }
     },
     "nixpkgs": {
@@ -207,24 +221,24 @@
         "type": "github"
       }
     },
-    "src-nimcrypto-master": {
+    "src-nimSHA2-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1624058888,
-        "narHash": "sha256-X/NUVtNS05OBrJTqZIPKd0P6Am4JJDtM9htVFpWWgCo=",
-        "owner": "cheatfate",
-        "repo": "nimcrypto",
-        "rev": "a5742a9a214ac33f91615f3862c7b099aec43b00",
+        "lastModified": 1631171307,
+        "narHash": "sha256-Wqb3mQ7638UOTze71mf6WMyGiw9qTwhbJiGGb+9OR2k=",
+        "owner": "jangko",
+        "repo": "nimSHA2",
+        "rev": "b8f666069dff1ed0c5142dd1ca692f0e71434716",
         "type": "github"
       },
       "original": {
-        "owner": "cheatfate",
+        "owner": "jangko",
         "ref": "refs/heads/master",
-        "repo": "nimcrypto",
+        "repo": "nimSHA2",
         "type": "github"
       }
     },
-    "src-nimcrypto-master_2": {
+    "src-nimcrypto-master": {
       "flake": false,
       "locked": {
         "lastModified": 1624058888,
