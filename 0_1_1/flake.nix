@@ -11,6 +11,7 @@
   inputs.src-hmac-0_1_1.ref   = "refs/tags/0.1.1";
   inputs.src-hmac-0_1_1.owner = "OpenSystemsLab";
   inputs.src-hmac-0_1_1.repo  = "hmac.nim";
+  inputs.src-hmac-0_1_1.dir   = "";
   inputs.src-hmac-0_1_1.type  = "github";
   
   inputs."nimsha2".owner = "nim-nix-pkgs";
